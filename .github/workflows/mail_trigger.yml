@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install schedule pandas smtplib openpyxl
+          pip install schedule pandas openpyxl
 
       - name: Run weekly mail script
         env:
