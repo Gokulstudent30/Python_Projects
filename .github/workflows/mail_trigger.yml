@@ -3,7 +3,7 @@ name: Weekly Email Report
 on:
   schedule:
     # Every Friday at 17:50 IST (12:20 UTC)
-    - cron: '5 7 * * *'
+    - cron: '10 7 * * *'
 
   workflow_dispatch:
 
