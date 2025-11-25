@@ -82,15 +82,5 @@ Gokul Sakthivelrajan | T1897
 
     except Exception as e:
         print("Error sending email:", e)
-
-
-# ---------- SCHEDULER ----------
-# Runs every Friday at 17:50 (change time if needed)
-schedule.every().friday.at("17:50").do(send_weekly_mail)
-
-print("Weekly mail scheduler is running... Waiting for the next execution...")
-
-# Infinite loop
-while True:
-    schedule.run_pending()
-    time.sleep(60)
+if __name__ == "__main__":
+    send_weekly_mail()
