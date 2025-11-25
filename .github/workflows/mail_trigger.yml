@@ -26,7 +26,7 @@ jobs:
           pip install schedule pandas openpyxl
 
       - name: Run weekly mail script
-        env:
-          OUTLOOK_EMAIL: ${{ secrets.OUTLOOK_EMAIL }}
-          OUTLOOK_APP_PASSWORD: ${{ secrets.OUTLOOK_APP_PASSWORD }}
+        #env:
+          #OUTLOOK_EMAIL: ${{ secrets.OUTLOOK_EMAIL }}
+          #OUTLOOK_APP_PASSWORD: ${{ secrets.OUTLOOK_APP_PASSWORD }}
         run: python Office_mail.py
