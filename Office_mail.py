@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # ---------- CONFIG ----------
-EXCEL_FILE = "/home/gokul/PycharmProjects/PythonProject/Project_1_Mail/Mail_data.xlsx"
+EXCEL_FILE = "Mail_data.xlsx"
 
 SMTP_SERVER = "smtp.office365.com"
 SMTP_PORT = 587
