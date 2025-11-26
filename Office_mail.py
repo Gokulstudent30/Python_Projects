@@ -48,6 +48,7 @@ Hi Kamal!
 
 Greetings for the day!!
 Please find the progress for this week.
+
 Meetings:
     {meetings}
 
