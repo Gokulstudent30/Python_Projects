@@ -13,7 +13,7 @@ SMTP_PORT = 587
 
 SENDER_EMAIL = "gokul.sakthivelrajan@tessolve.com"
 SENDER_PASSWORD = "vyxmbygjplrspwzb"    # Outlook App Password
-RECEIVER_EMAIL = "gokul.sakthivelrajan@tessolve.com"
+RECEIVER_EMAIL = "kamalpalanisamy.n@tessolve.com"
 
 SUBJECT = "Weekly Report"
 # -----------------------------------------------
